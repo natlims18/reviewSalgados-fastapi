@@ -11,12 +11,29 @@
 
 No diretório raiz do projeto crie um novo ambiente virtual do Python e entre nele para que seja possível ter total controle sobre as bibliotecas do Python que serão instaladas para a utilização deste projeto.
 
+
 ```bash
 python -m venv .venv
 ```
 
+#### Ativando no Linux
+
 ```bash
 source .venv/bin/activate
+```
+
+#### No Windows
+
+cmd.exe
+
+```bash
+C:\> <venv>\Scripts\activate.bat
+```
+
+PowerShell
+
+```bash
+PS C:\> <venv>\Scripts\Activate.ps1
 ```
 
 Também é um boa atualizar o PIP (gerenciador de pacotes do Python para a versão mais recente) utilizando o seguinte comando
